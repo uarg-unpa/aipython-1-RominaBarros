@@ -25,3 +25,6 @@ print (2+45)
 print (3/2) #division 
 print (6**2) #potencia
 print (3//2) # division que solo muestra el número entero del resultado "//"
+# EJERCICIO 3
+#NO VAN ESTAS VARIABLES- primer@nombre - primer-nombre - primer$
+
