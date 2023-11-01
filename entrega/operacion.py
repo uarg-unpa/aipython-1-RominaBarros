@@ -27,9 +27,9 @@ print(id(edad))
 edad=edad + 1
 print (id(edad))
 
-print("ingrese su edad")
-edad=input()
+print("ingrese su edad")                                         #              *1 linea
+edad=input() # para que el usuario ingrese los datos                            *2 linea
 print ("su edad es", edad)
 #input("  ")    ingreso de datos al programa, puede ser un string...
-edad=input("ingrese su edad:")# es para combinar las dos primeras lineas
+edad=input("ingrese su edad:")# es para combinar las dos primeras lineas        *1+*2 linea
 print (edad)

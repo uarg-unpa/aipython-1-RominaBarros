@@ -1,7 +1,7 @@
-
-
-
-
+str="bienvenidos a AIPython"
+print(f"cadena original{str}")
+str=str1.upper()
+print(f"cadena despues de usar la funcion upper{str1}")
 str1=str1.lower{}
 print(f"cadena despues de usar la cadena lower{str1}")
 str1=str1.litle{}

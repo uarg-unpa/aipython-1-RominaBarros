@@ -25,7 +25,9 @@ print (2+45)
 print (3/2) #division 
 print (6**2) #potencia
 print (3//2) # division que solo muestra el número entero del resultado "//"
+
 # EJERCICIO 3
+
 #NO VAN ESTAS VARIABLES- primer@nombre - primer-nombre - primer$nombre, los string van entre comillas simples , dobles o triples
 nombre="Romina" 
 print("tu nombre es:",nombre) # variable nombre         EJEMPLO
@@ -56,4 +58,14 @@ print("el salario es:",salario)
 salarioMensual=200
 salMen=200
 salarioMen=200
-finJuego=
+finJuego= "game over"
+
+#ejercicio N° 5 - a)
+
+print("ingrese su nombre:")# linea 1
+nombre=input() # linea 2
+apellido=input("ingrese su apellido:")#es para combinar las dos primeras lineas        *1+*2 linea
+edad=input("ingrese su edad:")# 
+print ("dice la leyenda que el apellido",apellido,"trae una decendencia griega, si lleva el nombre",nombre,"tiene 100 años de buena suerte.")
+print( "y se multiplica a sus generaciones si tiene" ,edad, "años de edad.")
+# 5 - B)
