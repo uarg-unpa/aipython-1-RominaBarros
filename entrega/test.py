@@ -26,13 +26,13 @@ print (3/2) #division
 print (6**2) #potencia
 print (3//2) # division que solo muestra el número entero del resultado "//"
 x=4
-y= x**2 + 6x + 9
+y= x**2 + 6 * x + 9
 print (y)
 x=6
-y= x**2 + 6x + 9
+y= x**2 + 6*x + 9
 print (y)
 x=3
-y= x**2 + 6x + 9
+y= x**2 + 6*x + 9
 print (y)
 
 # EJERCICIO 3
@@ -66,8 +66,8 @@ print("el salario es:",salario)
 salarioMensual=200
 salMen=200
 salarioMen=200
-finJuego=fin
-theEnd=fin
+finJuego="fin"
+theEnd="fin"
 numeroPar=22
 numero_par=4
 numPar=2
@@ -81,4 +81,4 @@ nom=input() # para que el usuario ingrese los datos
 
 print("ingrese su edad")                                                     
 edad=input() # para que el usuario ingrese los datos                            
-print ("todas las personas con apellido ",ape" tienen un futuro prospero, ni hablar si se llaman "nom,"y tan solo con ",edad "años de edad, ni hablar ")
+print ("todas las personas con apellido ",ape," tienen un futuro prospero, ni hablar si se llaman ",nom,"y con ",edad, "años de edad, TENDRAS EL DOBLE DE FORTUNA ")
