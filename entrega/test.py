@@ -101,11 +101,11 @@ num1=input("ingrese un número entero:")
 num1=int(num1)                         #si no se hace esta linea, lo toma como dos string
 num2=input("ingrese un numero real:")
 num2=float(num2)                          #(si no se hace esta linea, lo toma como dos string
-#print("la suma es:",num1+num2)
-#print("la resta es",num1-num2)
-#print("la multiplicacion es:",num1*num2)
-#print("la potencia es:",num1**num2)
-#print("el resto es",num1%num2)
+print("la suma es:",num1+num2)
+print("la resta es",num1-num2)
+print("la multiplicacion es:",num1*num2)
+print("la potencia es:",num1**num2)
+print("el resto es",num1%num2)
 
 #(8)
 long=input("ingrese longitud del rectangulo:")
