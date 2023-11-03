@@ -82,3 +82,28 @@ nom=input() # para que el usuario ingrese los datos
 print("ingrese su edad")                                                     
 edad=input() # para que el usuario ingrese los datos                            
 print ("todas las personas con apellido ",ape," tienen un futuro prospero, ni hablar si se llaman ",nom,"y con ",edad, "años de edad, TENDRAS EL DOBLE DE FORTUNA ")
+#5 B PREGUNTAR
+
+
+#6
+num1=input("ingrese un número:")
+num1=int (num1)                         #si no se hace esta linea, lo toma como dos string
+num2=input("ingrese otro numero: b")
+num2=int (num2)                          #si no se hace esta linea, lo toma como dos string
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1**num2)
+print(num1%num2)
+
+#7-
+num1=input("ingrese un número entero:")
+num1=int(num1)                         #si no se hace esta linea, lo toma como dos string
+num2=input("ingrese un numero real:")
+num2=float(num2)                          #si no se hace esta linea, lo toma como dos string
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1**num2)
+print(num1%num2)
+
