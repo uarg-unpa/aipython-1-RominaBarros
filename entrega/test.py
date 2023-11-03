@@ -25,9 +25,17 @@ print (2+45)
 print (3/2) #division 
 print (6**2) #potencia
 print (3//2) # division que solo muestra el número entero del resultado "//"
+x=4
+y= x**2 + 6x + 9
+print (y)
+x=6
+y= x**2 + 6x + 9
+print (y)
+x=3
+y= x**2 + 6x + 9
+print (y)
 
 # EJERCICIO 3
-
 #NO VAN ESTAS VARIABLES- primer@nombre - primer-nombre - primer$nombre, los string van entre comillas simples , dobles o triples
 nombre="Romina" 
 print("tu nombre es:",nombre) # variable nombre         EJEMPLO
@@ -58,14 +66,19 @@ print("el salario es:",salario)
 salarioMensual=200
 salMen=200
 salarioMen=200
-finJuego= "game over"
+finJuego=fin
+theEnd=fin
+numeroPar=22
+numero_par=4
+numPar=2
 
-#ejercicio N° 5 - a)
+#EJERCICIO N°5 input
+print("ingrese su APELLIDO")                   
+ape=input() # para que el usuario ingrese los datos                     
 
-print("ingrese su nombre:")# linea 1
-nombre=input() # linea 2
-apellido=input("ingrese su apellido:")#es para combinar las dos primeras lineas        *1+*2 linea
-edad=input("ingrese su edad:")# 
-print ("dice la leyenda que el apellido",apellido,"trae una decendencia griega, si lleva el nombre",nombre,"tiene 100 años de buena suerte.")
-print( "y se multiplica a sus generaciones si tiene" ,edad, "años de edad.")
-# 5 - B)
+print("ingrese su nombre")                            
+nom=input() # para que el usuario ingrese los datos                            
+
+print("ingrese su edad")                                                     
+edad=input() # para que el usuario ingrese los datos                            
+print ("todas las personas con apellido ",ape" tienen un futuro prospero, ni hablar si se llaman "nom,"y tan solo con ",edad "años de edad, ni hablar ")
