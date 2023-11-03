@@ -88,22 +88,35 @@ print ("todas las personas con apellido ",ape," tienen un futuro prospero, ni ha
 #6
 num1=input("ingrese un número:")
 num1=int (num1)                         #si no se hace esta linea, lo toma como dos string
-num2=input("ingrese otro numero: b")
+num2=input("ingrese otro numero: ")
 num2=int (num2)                          #si no se hace esta linea, lo toma como dos string
-print(num1+num2)
-print(num1-num2)
-print(num1*num2)
-print(num1**num2)
-print(num1%num2)
+print("la suma es:",num1+num2)
+print("la resta es",num1-num2)
+print("la multiplicacion es:",num1*num2)
+print("la potencia es:",num1**num2)
+print("el resto es",num1%num2)
 
 #7-
 num1=input("ingrese un número entero:")
 num1=int(num1)                         #si no se hace esta linea, lo toma como dos string
 num2=input("ingrese un numero real:")
-num2=float(num2)                          #si no se hace esta linea, lo toma como dos string
-print(num1+num2)
-print(num1-num2)
-print(num1*num2)
-print(num1**num2)
-print(num1%num2)
+num2=float(num2)                          #(si no se hace esta linea, lo toma como dos string
+#print("la suma es:",num1+num2)
+#print("la resta es",num1-num2)
+#print("la multiplicacion es:",num1*num2)
+#print("la potencia es:",num1**num2)
+#print("el resto es",num1%num2)
 
+#(8)
+long=input("ingrese longitud del rectangulo:")
+long=float(long)                         #si no se hace esta linea, lo toma como dos string
+ancho=input("ingrese el ancho del rectangulo:")
+ancho=float(ancho)   
+print("el perimetro del rectangulo es:",2*long+2*ancho)
+
+print("el area del rectangulo es:",long*ancho)
+
+radio=input("ingrese el radio del circulo:")
+radio=float(radio)   
+print("el perimetro del circulo es:",2*3,1415*radio)
+print("el área del circulo es:",3,1415*(radio)**2)
