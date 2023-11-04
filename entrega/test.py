@@ -120,3 +120,8 @@ radio=input("ingrese el radio del circulo:")
 radio=float(radio)   
 print("el perimetro del circulo es:",2*3,1415*radio)
 print("el área del circulo es:",3,1415*(radio)**2)
+
+# N°9
+peso=input("ingrese su peso :")
+altura=input("ingrese su altura:")
+imc=peso/(altura)
