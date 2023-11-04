@@ -83,7 +83,7 @@ print("ingrese su edad")
 edad=input() # para que el usuario ingrese los datos                            
 print ("todas las personas con apellido ",ape," tienen un futuro prospero, ni hablar si se llaman ",nom,"y con ",edad, "años de edad, TENDRAS EL DOBLE DE FORTUNA ")
 #5 B PREGUNTAR
-
+ape, nom, edad=input()
 
 #6
 num1=input("ingrese un número:")
