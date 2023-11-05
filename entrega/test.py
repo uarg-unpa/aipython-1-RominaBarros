@@ -139,4 +139,13 @@ else:
 cel=input("ingrese la temperatura en grados celcius:")
 cel=float(cel)
 far=(cel * 9/5)+32      #(0 °C × 9/5) + 32 = 32 °F
-print("la temperarura ingresada ",cel," celcius son: ",far,"fahrenheit")        
+print("la temperarura ingresada ",cel," celcius son: ",far,"fahrenheit")   
+
+#11
+hs=input("ingrese la cantidad de horas trabajadas: ")
+hs=int(hs)
+costohs=input("ingrese el costo de la horas trabajadas:")
+costohs=float(costohs)
+
+pago=(hs * costohs)      
+print("por ",hs,"horas trabajadas a $",costohs,"pesos la hora, recibira un pago de:$",pago,"pesos")     
