@@ -22,7 +22,7 @@ print(f"el producto es {prod}")
 ##otra forma de hacerlo 
 suma=0
 producto=1
-for _ in range(3)
+for _ in range(3):
     num=int(input("ingrese un numero:"))
     suma=suma+num
     prod=prod*num
@@ -33,8 +33,8 @@ for _ in range(3)
 menor=int(input("ingrese un numero: "))
 con=1
 num=menor
-while 
-    num<=menor:
+while con
+    num<=menor
     menor=num
     num=int(input("ingrese otro numero"))
     con=con+1
