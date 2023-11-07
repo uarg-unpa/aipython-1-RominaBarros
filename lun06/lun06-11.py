@@ -1,3 +1,79 @@
+
+while condicion:
+    sentencia1
+
+#condicion es verdadera-> infinitas veces
+#condiciobn es falsa-> nunca
+
+cont=6                                  #cont=0
+while cont!=5:
+    cont=cont+1                         #con=con-1
+    cont=1
+    while cont<5:
+    cont =cont-1                         #cont=con+1
+
+
+#cual es el problema
+
+
+suma=0
+while cont <=10:
+    suma=suma+cont
+    cont=cont+1
+    num=int (input())
+    suma=0
+    while (num!=0):
+        print(num)
+        suma=suma+num
+        num=int(input())
+        #enunciado1
+    while condicion1:
+        enunciado2
+    enunciado3
+    enunciado4
+
+
+num=int(input())
+while (num<10):
+    print(f"el numero es{num}")
+    num=num+1
+    ##num=1 #9
+    ##num=10#
+
+
+    cont 
+    while(cont<5):
+        num=int(input())
+        print(f_"el numero ingresadoes {num}")
+        cont=cont+1
+
+        opcion=input("ingrese opcion")
+        while(opcion!="A"):
+            print(opcion)
+            opcion=input
+
+cont=0
+sumatoria=0
+while (cont<=10):
+    num=int(input())
+    sumatoria=sumatoria+num
+    cont=cont+1
+
+contpar=0
+contimpar=0
+for_in range (20):
+    num=int    
+
+
+
+
+
+
+
+
+
+
+
 num1=int(input("ingrese un número entero"))
 num2=int(input("ingrese un segundo número entero"))
 num3=int(input("ingrese un tercer número entero"))
@@ -33,7 +109,7 @@ for _ in range(3):
 menor=int(input("ingrese un numero: "))
 con=1
 num=menor
-while con
+while con<5:
     num<=menor
     menor=num
     num=int(input("ingrese otro numero"))
