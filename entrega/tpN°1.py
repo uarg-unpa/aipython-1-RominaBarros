@@ -1,12 +1,10 @@
-dinero=input("ingrese la cantidad de dinero que quiere invertir: $")
-dinero=float(dinero)
-interes=input("ingrese el interes anual:")
-interes=int(interes)
-años=input("ingrese la cantidad de años que desea invertir:")
-años=int(años)
 
+suma=0
 con=1
-while(co):
+while(con<=10):
+    prod=input("ingrese el precio del producto:")
+    prod=int(prod)
+    suma=suma+prod
 
-capital=(dinero/100)*(1+(interes)**años)      
-print("el capital obtenido fue de $ ",capital,"pesos, de un monto invertido de ",dinero,"pesos, con una taza de interes de:",interes,"a ",años, "años")
+prom=suma/10      
+print("el promedio de los diez productos ingresados fue ",prom)
