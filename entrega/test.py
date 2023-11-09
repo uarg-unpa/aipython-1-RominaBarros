@@ -160,3 +160,14 @@ años=int(años)
 
 capital=(dinero/100)*(1+(interes)**años)      
 print("el capital obtenido fue de $ ",capital,"pesos, de un monto invertido de ",dinero,"pesos, con una taza de interes de:",interes,"a ",años, "años")
+
+#13
+suma=0
+con=1
+while(con<=10):
+    prod=input("ingrese el precio del producto:")
+    prod=float(prod)
+    suma=suma+prod
+    con=con+1
+prom=suma/10      
+print("el promedio de los diez productos ingresados fue ",prom)
