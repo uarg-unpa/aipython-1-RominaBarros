@@ -83,7 +83,7 @@ print("ingrese su edad")
 edad=input() # para que el usuario ingrese los datos                            
 print ("todas las personas con apellido ",ape," tienen un futuro prospero, ni hablar si se llaman ",nom,"y con ",edad, "años de edad, TENDRAS EL DOBLE DE FORTUNA ")
 #5 B PREGUNTAR
-ape, nom, edad=input()
+#ape, nom, edad=input()
 
 #6
 num1=input("ingrese un número:")
@@ -171,3 +171,8 @@ while(con<=10):
     con=con+1
 prom=suma/10      
 print("el promedio de los diez productos ingresados fue ",prom)
+
+#14 concatenar "una ambiciosa","introduccion","a Python","parte uno"
+
+print("una ambiciosa","introduccion","a Python","parte uno" )
+print("una ambiciosa"+"introduccion"+"a Python"+"parte uno" )
