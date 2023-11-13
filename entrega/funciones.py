@@ -28,27 +28,26 @@ def mayor_de_tres(num1,num2,num3):
     return mayor
 #retornar la suma de los elementos de la lista
 def suma_lista(lista):
+    return suma(lista)
 
-
-def suma
-suma=0
-
-
-
+def suma_lista2(lista):
+    suma=0
+    for elemento in lista:
+        suma=suma+elemento
+    return suma        
 
 def suma_lista3(lista)
-
-
-
-
-
+    suma=0
+    for i in range(len(lista)):
+        suma=suma+lista[i]
+    return suma
 #invocacion
 def main():
-resultado=suma(5,6)
-print(resultado)
-print(saludo("romina"))
-print(saludo())
-suma_lista([3,4,5])
-print (tabla(7))
+    resultado=suma(5,6)
+    print(resultado)
+    print(saludo("romina"))
+    print(saludo())
+    suma_lista([3,4,5])
+    print (tabla(7))
 
 main()#
