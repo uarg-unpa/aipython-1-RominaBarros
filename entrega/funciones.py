@@ -36,7 +36,7 @@ def suma_lista2(lista):
         suma=suma+elemento
     return suma        
 
-def suma_lista3(lista)
+def suma_lista3(lista):
     suma=0
     for i in range(len(lista)):
         suma=suma+lista[i]
