@@ -10,4 +10,14 @@ print(sociedad )
 sociedad=sociedad.lower()
 print(sociedad )
 sociedad=sociedad.title()   #coloca la primer letra en mayuscula
-print(sociedad )     
+print(sociedad ) 
+
+#16 Usar los métodos capitalize(), title(), swapcase() para formatear el valor del string
+mensaje= "sometimes it is the people no one imagines anything of who do the things that no one can imagine."
+mensaje=mensaje.capitalize()
+print(mensaje)
+mensaje =mensaje.title()
+print(mensaje)
+mensaje =mensaje.swapcase()
+print(mensaje)
+
