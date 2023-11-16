@@ -9,10 +9,5 @@ sociedad=sociedad.upper()
 print(sociedad )
 sociedad=sociedad.lower()
 print(sociedad )
-sociedad=sociedad.title()
-print(sociedad )
-
-def tabla(num=7): 
-    for i in range(1,11):   
-        print(f"{i} x {num}={i*num}" )
-print (tabla)        
+sociedad=sociedad.title()   #coloca la primer letra en mayuscula
+print(sociedad )     

@@ -27,11 +27,11 @@ while cont <=10:
         suma=suma+num
         num=int(input())
 
-    enunciado1
-    while condicion1:
-        enunciado2
-    enunciado3
-    enunciado4
+    #enunciado1
+    #while condicion1:
+    #    enunciado2
+    #enunciado3
+    #enunciado4
 
 num=int(input())
 while (num<10):
@@ -106,19 +106,19 @@ menor=int(input("ingrese un numero: "))
 con=1
 num=menor
 while con<5:
-    num<=menor
-    menor=num
+    if num<=menor:
+        menor=num
     num=int(input("ingrese otro numero"))
     con=con+1
-print(f"la suma es{suma}")
-print(f"el producto es {prod}")
+print(f"el menor numero ingresado es{menor}")
+
 #otra opcion
 menor=int(input("ingrese un numero: "))
 for _ in range(4):
     num=int(input("ingrese numero"))
     if num<menor:
         menor=num
-print(f"el menor de 5 numeros es:{menos}")
+print(f"el menor de 5 numeros es:{menor}")
 
 con=0
 while cont<5:
