@@ -7,4 +7,4 @@ if numero1>numero2:
 else:
     mayor=numero2    
 print(" el numero mayor es",mayor)    
-print
+print()
