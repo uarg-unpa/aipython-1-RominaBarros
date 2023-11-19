@@ -5,7 +5,7 @@ print("hoy es viernes :)")
 print ("23", '"23"')
 print ('una computadora puede ser llamada "inteligente" si logra engañar a una persona haciendole creer que es un humano.')#"E"
 print ("ROMINA","BARROS", 36) #F- entre los argumentos se pone coma y da como resultado un espacio
-print ("ROMINA","BARROS", 36,sep="_") #"G"
+print ("ROMINA","BARROS", 36,sep="_") #"G"sep _, agrega un guion entre los argumentos 
 print ("gregores", 988, 9400,"\t")#H
 print ("gregores", 988, 9400, end="\n")# i - hace para que sea en otra linea????
 print ("Feliz", "Primavera", 2023, "\n")
@@ -231,3 +231,11 @@ print (cadena)
 texto="El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio de una combinación de dos instalaciones, que podemos llamar la intuición y el ingenio."
 parte=texto[15:180]
 print (parte)
+
+## 23. Remover los espacios en blanco del principio y final de la siguiente frase, ...
+texto="    La ciencia es una ecuación diferencial. La religión es una condición de frontera.    "
+parte=texto[4:85]
+print (parte)
+
+# 24. Usar el carácter de escape y nueva línea para separar la frase del ejercicio 22 en dos líneas.
+print("El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio ","\n","de una combinación de dos instalaciones, que podemos llamar la intuición y el ingenio")
