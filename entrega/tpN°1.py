@@ -215,11 +215,11 @@ print ("  *          *")
 print ("  *          *")
 print ("  ************")
 
-# 19- PREGUNTAR
-print (" *"),"\n",(" * *"),"\n",(" * *"),"\n",(" * *"),"\n",("*** ***"),"\n",(" * *"),"\n",(" * *"),"\n",(" ************"),"\n",
+# 19. Utilizar un solo print y /n para dibujar el mismo árbol.
+print ("        *","\n","     *    *","\n","   *        *","\n"," *            *","\n","***          ***","\n","  *          *","\n","  *          *","\n","  ************")
 
-# 20-   PREGUNTAR
-print ()    
+#20. Dibujar dos árboles uno al lado del otro.
+print ("        *","                *","\n","     *    *","          *    *","\n","   *        *","      *        *","\n"," *            *","  *            *","\n","***          ***","***          ***","\n","  *          *","    *          *","\n","  *          *","    *          *","\n","  ************","    ************") 
 
 # 21-
 cadena =(input("ingrese una palabra: "))
@@ -239,3 +239,6 @@ print (parte)
 
 # 24. Usar el carácter de escape y nueva línea para separar la frase del ejercicio 22 en dos líneas.
 print("El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio ","\n","de una combinación de dos instalaciones, que podemos llamar la intuición y el ingenio")
+
+# 25. Usar el carácter de escape y tabulación para mostrar lo siguiente:
+print("Nombre Edad Pais Ciudad ","\n","Alexa 250 USA CapeCod")
