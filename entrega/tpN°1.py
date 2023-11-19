@@ -215,8 +215,19 @@ print ("  *          *")
 print ("  *          *")
 print ("  ************")
 
-# 19-
+# 19- PREGUNTAR
 print (" *"),"\n",(" * *"),"\n",(" * *"),"\n",(" * *"),"\n",("*** ***"),"\n",(" * *"),"\n",(" * *"),"\n",(" ************"),"\n",
 
-# 20-
-print (" *")(" *"),"\n",(" * *")(" * *"),"\n",(" * *")(" * *"),"\n",(" * *"),(" * *"),"\n",("*** ***")("*** ***"),"\n",(" * *")(" * *"),"\n",(" * *")(" * *"),"\n",(" ************")(" ************"),"\n",
+# 20-   PREGUNTAR
+print ()    
+
+# 21-
+cadena =(input("ingrese una palabra: "))
+print (cadena)
+cadena=cadena.replace("a",";)")
+print (cadena)
+
+# 22. Cortar las dos primeras palabras de la frase ...
+texto="El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio de una combinación de dos instalaciones, que podemos llamar la intuición y el ingenio."
+parte=texto[15:180]
+print (parte)

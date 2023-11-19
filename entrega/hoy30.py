@@ -1,13 +1,13 @@
 str1=" bienvenidos a AIPython "
 print(f"cadena original{str1}")
-str=str1.upper()
+str1=str1.upper()
 print(f"cadena despues de usar la funcion upper {str1}")
 str1=str1.lower()
 print(f"cadena despues de usar la cadena lower {str1}")
-str1=str1.litle()
+str1=str1.title()
 print(f"cadena despues de usar la funcion Title {str1}")
 print(f"usando * en cadena {str1*3}")
-print(f"la suma de los numeros es {2+4}")
+print(f"la suma de los numeros es {2+4}")## se suma 2+4 al estar entre corchete y da el resultado
 #REBANADAS
 
 
@@ -35,7 +35,7 @@ print(f"el promedio de {nota1},{nota2},{nota3}es{promedio} ")
 cont=0
 suma=0
 while(cont<3):
-    nota=int(input("ingrese nota"))
+    nota=int(input("ingrese nota: "))
     suma=suma+nota
     cont=cont+1
 print(f"el promedio de {nota1},{nota2},{nota3}es{promedio} ")
