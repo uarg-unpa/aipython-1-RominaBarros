@@ -50,4 +50,34 @@ else:
     else:
         print("el número b es mayor al número a") 
         
-            
+#5. Escriba un programa que pida al usuario un número entero e indique si es par o impar. 
+
+num=int(input("ingrese un número entero: "))
+if num%2==0: 
+    print("el número ingresado es par")
+else:
+    print("el número ingresado es impar ")    
+
+#6. Escriba un programa que pida al usuario un número entero del 1 al 7 y muestre por pantalla a qué día de la
+#  semana corresponde. Controlar que el número se encuentre dentro del rango [1-7], sino es así, mostrar un 
+#mensaje. Por ejemplo, si se ingresa el número 2 la salida debe ser martes.
+    
+dia=int(input("ingrese un numero referido al dia de la semana: "))
+if dia>0 and dia<8:
+    if dia==1:
+        print("el día ingresado es lunes")
+    if dia==2:
+        print("el día ingresado es martes")
+    if dia==3:
+        print("el día ingresado es miercoles")
+    if dia==4:
+        print("el día ingresado es jueves") 
+    if dia==5:
+        print("el día ingresado es viernes")
+    if dia==6:
+        print("el día ingresado es sabado")  
+    if dia==7:
+        print("el día ingresado es domingo")
+else:
+    print("el numero ingresado no corresponde a un día de la semana")  
+
