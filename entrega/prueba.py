@@ -1,18 +1,12 @@
-#2. Compare su edad y mi edad usando if..else. ¿Quién es mayor (vos o yo)?, para el ingreso de la edad use input
-#   (“Ingrese su edad:”)Use un condición anidada para: Imprimir año si la diferencia es de 1, sino años para 
-#   diferencias mayores.Cuando las edades son iguales imprimir un mensaje personalizado,ser creativo!!
+#4. Obtenga dos números del usuario mediante input. Si a es mayor que b, devuelve a es mayor que b, si a es 
+#   menor que b, devuelve a es menor que b de lo contrario, a es igual a b.
 
-edad=int(input("Mi edad es 36,para comparar, ingrese su edad: "))
-if edad==36: 
-    print("lo mas lindo, que conocimos la vida sin telefono celular. y fuimos felices jugando afuera con los amigos y vecinos")
+a=int(input("ingrese el número a: "))
+b=int(input("ingrese el número b: "))
+if a==b: 
+    print("los números ingresados son iguales")
 else:
-    if edad>36:
-        print("usted es mayor que yo")
-        i=edad-36
+    if a>b:
+        print("el número a es mayor al numero b ")
     else:
-        i=36-edad
-        print("soy mayor que vos")
-if i ==1:
-    print("tenemos ",i, "año de diferencia")
-else:
-    print("tenemos ",i, "años de diferencia")    
+        print("el número b es mayor al número a")    

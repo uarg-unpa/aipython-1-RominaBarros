@@ -25,3 +25,29 @@ if i ==1:
     print("tenemos ",i, "año de diferencia")
 else:
     print("tenemos ",i, "años de diferencia")    
+
+#3. Solicite al usuario una contraseña, utilizando input(“Ingrese su contraseña”), almacene esta contraseña en
+#   una variable. Luego informar si la contraseña introducida coincide con la guardada sin tener en cuenta 
+#   mayúsculas y minúsculas .
+cont="romina"
+contraseña=(input("ingrese su contraseña "))
+contraseña=contraseña.lower()
+if contraseña==cont: 
+    print("la contraseña ingresada coincide con la predeterminada")
+else:
+    print("la contraseña no coincide con la predeterminada ")
+
+#4. Obtenga dos números del usuario mediante input. Si a es mayor que b, devuelve a es mayor que b, si a es 
+#   menor que b, devuelve a es menor que b de lo contrario, a es igual a b.
+
+a=int(input("ingrese el número a: "))
+b=int(input("ingrese el número b: "))
+if a==b: 
+    print("los números ingresados son iguales")
+else:
+    if a>b:
+        print("el número a es mayor al numero b ")
+    else:
+        print("el número b es mayor al número a") 
+        
+            
