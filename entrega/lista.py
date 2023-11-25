@@ -31,5 +31,5 @@ numero.insert(1,23)#para remplazan el la posicion 1 por otro numero en este caso
 print(numero)
 #index
 indice=numero.index(110)
-print(f"indice{indice}")
+print(f"indice {indice}")
 
