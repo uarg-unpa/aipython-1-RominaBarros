@@ -1,18 +1,15 @@
-#7. Genere un programa que clasifique a los estudiantes según sus puntuaciones:
-#● 90-100, A;● 70-89, B; ● 60-69, C; ● 50-59, D; ● 0-49, F
+#8. Escriba un programa para una empresa que tiene salas de juegos para todas las
+#edades y quiere calcular de forma automática el precio que debe cobrar a sus
+#clientes por entrar. El programa debe preguntar al usuario la edad del cliente y
+#mostrar el precio de la entrada. Si el cliente es menor de 4 años puede entrar gratis,
+#si tiene entre 4 y 18 años debe pagar $5 y si es mayor de 18 años, $10.
 
-nota =int(input("ingrese la puntuacion del alumno: "))
-if nota>0 and nota<101:
-    if nota>89:
-        print("la puntuación obtenida es:'A' ")
-    else:
-        if nota>69:
-            print("la puntuación obtenida es:'B' ")
+edad=int(input("ingrese su edad: "))
+if edad>0 and edad<150:
+      if edad >18:
+          print("el precio de la entrada es: $10 ")
+      else:
+        if edad <4:
+            print("el precio de la entrada es: $5 ")
         else:
-            if nota >59:
-                print("la puntuación obtenida es:'C' ")
-            else:
-                if nota>49:
-                    print("la puntuación obtenida es:'D' ")
-                else:
-                    print("la puntuación obtenida es:'F' ")   
+            print("entra gratis ")   
