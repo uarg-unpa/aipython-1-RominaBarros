@@ -3,20 +3,16 @@
 
 nota =int(input("ingrese la puntuacion del alumno: "))
 while nota>0 and nota<101:
-    if nota<=49:
-        print("F")    
-    if nota:
-        print("el día ingresado es martes")
-    if dia==3:
-        print("el día ingresado es miercoles")
-    if dia==4:
-        print("el día ingresado es jueves") 
-    if dia==5:
-        print("el día ingresado es viernes")
-    if dia==6:
-        print("el día ingresado es sabado")  
-    if dia==7:
-        print("el día ingresado es domingo")
+    if nota <50:
+	    print("la puntuación obtenida es F ")
 else:
-    print("el numero ingresado no corresponde a un día de la semana")        
-         
+    if nota <60:
+        print("la puntuación obtenida es D ")
+    else:
+	    if nota<70:
+	        print("la puntuación obtenida es C ")
+        else:
+            if nota <80:
+               	print("la puntuación obtenida es B ")
+           	else:
+		        print("la puntuación obtenida es A ")
