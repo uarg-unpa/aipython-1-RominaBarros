@@ -1,8 +1,5 @@
-#7. Escribir un programa que pregunte el nombre de usuario y un número entero
-#e imprima en diferentes líneas el nombre de usuario tantas veces como el
-#número introducido.
-
-nombre =(input("ingrese su nombre: "))
-num=int(input("ingrese un número entero: "))
-for i in range(num):   
-        print(nombre)
+i=0
+j=0
+for i in range (i,6):
+ for j in range(j,6):
+  print([i][j])

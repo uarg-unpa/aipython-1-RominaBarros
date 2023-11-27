@@ -77,6 +77,10 @@ for i in range(num):
 #8. Escribir un programa que pida un número entero positivo mayor a 3 y muestre
 #por pantalla todos los números impares desde 1 hasta ese número.
 
+num=int(input("ingrese un número entero positivo mayor a 3: "))
+for i in range(1,num,2):   
+        print(f"{i} " )
+
 #9. Escribir un programa que permita mostrar el siguiente patrón:
 
 #0 x 0 = 0
@@ -91,10 +95,11 @@ for i in range(num):
 #9 x 9 = 81
 #10 x 10 = 100
 
+for i in range(1,11):
+        print(f"{i} x {i}= {i*i}" )
+
 #Taller una Ambiciosa Introducción a Python
-
 #Guía I de Python
-
 
 #10. Escribir un programa que imprima todas las fichas del domino, una por línea,
 #sin repetir. Como se muestra a continuación
