@@ -1,4 +1,4 @@
-#definicion de finciones
+#definicion de funciones
 def suma (num1,num2):
     return num1+num2
 

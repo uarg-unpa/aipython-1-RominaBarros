@@ -9,7 +9,7 @@ while cont <=100:
 
 cont=0
 for cont in range (0,101):
-    print("numero:",cont, end="\n") #preguntar como escribirlo en la misma linea
+    print(cont, end=",") #preguntar como escribirlo en la misma linea
 
 #3. Iterar de 10 a 0 usando un bucle while y un bucle for.
 
