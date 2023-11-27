@@ -7,11 +7,27 @@ while cont <=100:
 #2. Tomar el ejercicio 1 y realizarlo con un bucle for, tip usar range. los números deben
 #salir uno al lado del otro.
 
+cont=0
+for cont in range (0,101):
+    print("numero:",cont, end="\n") #preguntar como escribirlo en la misma linea
 
 #3. Iterar de 10 a 0 usando un bucle while y un bucle for.
 
+num=10
+while num>=0:
+        print(num )
+        num=num-1
+        
+for i in range(10,-1,-1):   
+       print(f"{i} " )   
+
 #4. Escribir un programa que pida al usuario dos números enteros e imprima todos los
 #números entre ellos.
+
+num1=int(input("ingrese un número entero: "))
+num2=int(input("ingrese el segundo número entero: "))
+for i in range(num1,num2):   
+        print(f"{i}")
 
 #5. Escribe un bucle que haga siete llamadas a print(), de modo que obtengamos
 #en la salida el siguiente triángulo:
@@ -24,6 +40,14 @@ while cont <=100:
 ######
 #######
 
+a =("#")
+b=("")
+cont =0
+while cont <7:
+        b =a+b
+        print(b)
+        cont=cont+1
+
 #6. Usar bucles anidados para mostrar la siguiente figura
 
 ########
@@ -35,9 +59,20 @@ while cont <=100:
 ########
 ########
 
+a =("########")
+cont =0
+while cont <8:
+  print(a)
+  cont=cont+1
+
 #7. Escribir un programa que pregunte el nombre de usuario y un número entero
 #e imprima en diferentes líneas el nombre de usuario tantas veces como el
 #número introducido.
+
+nombre =(input("ingrese su nombre: "))
+num=int(input("ingrese un número entero: "))
+for i in range(num):   
+        print(nombre)
 
 #8. Escribir un programa que pida un número entero positivo mayor a 3 y muestre
 #por pantalla todos los números impares desde 1 hasta ese número.

@@ -1,6 +1,8 @@
-#2. Tomar el ejercicio 1 y realizarlo con un bucle for, tip usar range. los números deben
-#salir uno al lado del otro.
+#7. Escribir un programa que pregunte el nombre de usuario y un número entero
+#e imprima en diferentes líneas el nombre de usuario tantas veces como el
+#número introducido.
 
-cont=0
-for cont in range (0,101):
-    print("numero:",cont) 
+nombre =(input("ingrese su nombre: "))
+num=int(input("ingrese un número entero: "))
+for i in range(num):   
+        print(nombre)
