@@ -1,7 +1,6 @@
 #14.Escribir un programa que recibe como entrada desde el usuario dos números
 #enteros e imprimir todos los números pares entre ellos.
 
-
 par=0
 num1=int(input("ingrese un número 1 natural: "))
 num2=int(input("ingrese un número 2 natural: "))
