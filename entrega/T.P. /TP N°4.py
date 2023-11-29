@@ -1,5 +1,5 @@
 #1. Declarar una lista vacía.
 
-num=[1]
+num=[]
 print(num)
-print(type(num))
+print(type(numero))

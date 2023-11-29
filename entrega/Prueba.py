@@ -36,7 +36,7 @@ for i in range(6):#rango de la longuitud de la lista     //esta forma te da los 
     for j in range(6):#
         print(numeros[i][j])
 
-#11. Escribir un programa que pida al usuario un número entero y muestre por
+#11. Escribir un programa que pida al usuario un número entero y muestre por              tp3
 #pantalla un triángulo rectángulo como el que se muestra
 #Si se ingresa el número 9, el resultado será
 #1
@@ -63,3 +63,17 @@ for  n in range  (num):
   n=n+num
   print(f"{n} + {num}= {n+num}" )
 print(n)  
+
+#14.Escribir un programa que recibe como entrada desde el usuario dos números             tp3
+#enteros e imprimir todos los números pares entre ellos.
+
+par=("")
+num1=int(input("ingrese un 1° número : "))
+num2=int(input("ingrese un 2° número : "))
+if num1<num2:
+  n=num1
+  while num1 <= num2:
+    if num1%2==0:
+      par=num1+par
+      num1=num1+1
+print("la suma de los numero pares entre los dos numeros ingresado es:",par)  
